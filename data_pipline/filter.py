@@ -20,3 +20,6 @@ def main():
     data = data.reset_index(drop=True)
     data.to_csv("2014_nyc_taxi_trips.csv")
     return data
+
+if __name__ == "__main__":
+    test = main()
