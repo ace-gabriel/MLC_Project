@@ -42,4 +42,4 @@ def driver(buffer):
 
 if __name__ == '__main__':
     dt = dataLoader(file)
-    result = driver(a)
+    result = driver(dt)
